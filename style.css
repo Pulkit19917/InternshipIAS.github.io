@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  /* box-sizing: border-box; */
+}
+
+.form {
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 290px;
+}
+.header {
+  width: 80vw;
+  float: right;
+}
+.navbar {
+  height: 10vh;
+}
+/* .navbar-brand {
+  margin: 0px 20px;
+  float: right;
+} */
+#navbarDropdown {
+  width: 150px;
+  text-decoration: none;
+  color: black;
+  float: center;
+  border: solid 2px;
+  border-radius: 10px;
+}
+.container-fluid i {
+  font-size: 30px;
+}
+.nav-item:active {
+  background: lightcoral;
+  text-decoration: underline;
+}
+.basenav {
+  position: flex;
+  height: 20vh;
+}
+.basenav ul {
+  margin-left: 20vw;
+}
+.basenav ul li a {
+  margin: 10px 0;
+  margin-right: 90px;
+}
+.sidenav {
+  width: 20vw;
+  height: 100vh;
+  /* background-color: blue; */
+  position: absolute;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav-item a ::hover {
+  text-decoration: underline;
+}
+.btn-group {
+  margin-left: 19vw;
+  /* display: inline; */
+  width: 79vw;
+  display: block;
+}
+#dropdownMenuButton1,
+#dropdownMenuButton2 {
+  font-size: 20px;
+  width: 10px;
+  margin: 0px 30px;
+  height: 60px;
+  border: solid 0.5px black;
+}
+.flex {
+  /* float: right; */
+  margin: 20px 0px;
+  width: auto;
+  height: 0px;
+}
+.form2 {
+  height: 35px;
+}
+.nav3 {
+  color: aliceblue;
+  width: 90px;
+  margin: 0px 30px;
+  height: 70px;
+  border-radius: 10px;
+}
+.nav2 {
+  color: aliceblue;
+  width: 60px;
+  margin: 0px 10px;
+  height: 70px;
+  border-radius: 10px;
+}
+.body {
+  width: 80vw;
+  height: 35vh;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  height: 250px;
+  width: auto;
+}
+.tg {
+  font-size: 28px;
+  margin-left: 22vw;
+  margin-top: 50px;
+}
+.st {
+  margin-left: 250px;
+}
+/* / */
+
+/* Side Bar*/
+.side {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+  text-decoration: none;
+}
+.sidebar {
+  margin-top: 90px;
+  position: fixed;
+  width: 19.5vw;
+  height: 100%;
+  left: 0;
+  background: rgba(60, 60, 68, 0.965);
+}
+.sidebar .sidebar-header {
+  color: white;
+  font-size: 25px;
+  margin: 30px 0px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 1px;
+  border-bottom: 5px white solid;
+}
+nav ul {
+  background: rgba(60, 60, 68, 0.965);
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  line-height: 65px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+i {
+  margin-right: 20px;
+}
+.container-fluid i {
+  margin: 0px 25px;
+}
+
+nav ul ul {
+  position: static;
+  display: none;
+}
+nav ul ul li {
+  line-height: 42px;
+  border-bottom: none;
+}
+nav ul ul li a {
+  font-size: 30px;
+  padding-left: 0px;
+}
+nav ul .lead-show.show {
+  display: block;
+}
+nav ul .lead-show.show {
+  display: block;
+  background: rgb(57, 57, 72);
+}
+nav ul .lead-show.show a {
+  line-height: 55px;
+}
+.side.close nav li .lead-show {
+  position: absolute;
+  width: 12vw;
+  left: 100%;
+  top: 180px;
+  opacity: none;
+  height: 300px;
+  transition: all 0.4s ease;
+  padding: 10px 20px;
+}
+nav ul li a span {
+  margin-left: 135px;
+}
+.body .card-header {
+  height: 100px;
+  border-left: 9px solid rgb(37, 241, 197);
+}
+.body .card-header h5 {
+  margin-top: 10px;
+  line-height: 35px;
+  color: rgb(37, 241, 197);
+}
+.body .card-body h6 {
+  line-height: 55px;
+}
+.body .card-body span {
+  margin-left: 50px;
+}
+.body .card-header span {
+  margin-left: 180px;
+}
+.tg h4 {
+  text-align: center;
+  margin-top: -40px;
+}
+/* subject */
+
+.subbar {
+  margin-left: 21vw;
+  margin-top: 30px;
+}
+
+.subbar .dropdown button {
+  width: 300px;
+  border: 2px solid black;
+  height: 50px;
+  text-align: left;
+}
+.subbar form {
+  float: right;
+  margin-top: 4px;
+}
+
+.subbar form .form3 {
+  width: 20vw;
+  height: 7vh;
+  margin-right: 10px;
+  border: none;
+}
+#btnn {
+  margin-top: 0;
+  margin-right: 30px;
+  height: 7vh;
+  width: 200px;
+}
+.form-check {
+  margin-left: 20vw;
+  position: absolute;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 18px;
+}
+
+.tt table {
+  margin-left: 21vw;
+  margin-top: 50px;
+  width: 75vw;
+  height: 46vh;
+}
+.table .col {
+  width: 40vw;
+}
+.table tbody {
+  display: block;
+  height: 400px;
+  overflow-y: auto;
+}
+.table tr {
+  display: block;
+}
+.table tbody td .table thead > th {
+  float: left;
+}
